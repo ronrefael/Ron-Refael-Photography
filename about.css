@@ -1,0 +1,10 @@
+/*About*/
+/* set the positioning of the picture present in the about section*/ 
+.aboutImage {
+    display: block;
+    margin-top: 2.5%;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 25%;
+  }  
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <script src="main.js"></script>
+</head>
+<body>
+    
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <h1><a class = "pageHeader" href="welcome-page.html">RON REFAEL PHOTOGRAPHY </a></h1>
+  
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="home-page.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    
+    <h4> Ron Refael | Email: Ron.A.Refael@gmail.com | Phone: 917-617-7773</h4>
+    <!-- Link that opens my instagram page in a new tab --> 
+    <h4>Instagram:  <a href="https://www.instagram.com/RonRefael.photography/" rel="noopener noreferrer" target="_blank" id="instaLink">@RonRefael.photography</a></h4>
+    
+    <h5>(If you would like to contact me directly, you can fill out the form bellow)</h5>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    
+    
+</body>
+</html>
